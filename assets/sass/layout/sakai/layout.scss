@@ -1,0 +1,28 @@
+@import "./_main";
+
+.container {
+  width: 1640px;
+  margin: auto;
+  @media screen and (max-width: 1700px) {
+    width: 1450px;
+  }
+  @media screen and (max-width: 1500px) {
+    width: 1300px;
+  }
+  @media screen and (max-width: 1350px) {
+    width: 992px;
+  }
+  @media screen and (max-width: 1040px) {
+    width: 768px;
+  }
+  @media screen and (max-width: 805px) {
+    width: 576px;
+  }
+  @media screen and (max-width: 610px) {
+    width: 100%;
+    padding: 0 1.5rem;
+  }
+  @media screen and (max-width: 502px) {
+    padding: 0 10px;
+  }
+}
